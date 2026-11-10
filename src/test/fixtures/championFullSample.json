@@ -1,0 +1,788 @@
+{
+  "type": "champion",
+  "format": "full",
+  "version": "16.20.1",
+  "data": {
+    "Leblanc": {
+      "id": "Leblanc",
+      "key": "7",
+      "name": "LeBlanc",
+      "partype": "Mana",
+      "stats": {
+        "attackrange": 525
+      },
+      "spells": [
+        {
+          "id": "LeblancQ",
+          "name": "Sigil of Malice",
+          "tooltip": "LeBlanc projects a sigil to an enemy, dealing <magicDamage>{{ damage }} magic damage</magicDamage> and marking them for {{ markduration }} seconds.<br /><br />Damaging the marked enemy with an Ability detonates the sigil, dealing <magicDamage>{{ markdamage }} magic damage</magicDamage>.<br /><br />If either part kills the target, Leblanc refunds {{ manarefund*100 }}% of the Mana cost and {{ cooldownrefund*100 }}% of this spell's remaining Cooldown.<br /><br /><rules>The initial sigil deals an additional {{ bonusminiondamage }} damage to minions. </rules>{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "6",
+          "costBurn": "50",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "700",
+          "maxammo": "-1",
+          "image": {
+            "full": "LeblancQ.png"
+          }
+        },
+        {
+          "id": "LeblancW",
+          "name": "Distortion",
+          "tooltip": "LeBlanc dashes then deals <magicDamage>{{ totaldamage }} magic damage</magicDamage> to nearby enemies. For {{ snapbacktimeallowed }} seconds after dashing, LeBlanc can <recast>Recast</recast>.<br /><br /><recast>Recast:</recast> LeBlanc returns to her starting location.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "15/13.75/12.5/11.25/10",
+          "costBurn": "60/70/80/90/100",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "600",
+          "maxammo": "-1",
+          "image": {
+            "full": "LeblancW.png"
+          }
+        },
+        {
+          "id": "LeblancE",
+          "name": "Ethereal Chains",
+          "tooltip": "LeBlanc launches a chain that shackles the first enemy hit, dealing <magicDamage>{{ initialdamage }} magic damage</magicDamage> and granting <keywordStealth>True Sight</keywordStealth>.<br /><br />If they remain shackled for {{ tetherduration }} seconds, LeBlanc <status>Roots</status> them for {{ rootduration }} seconds and deals an additional <magicDamage>{{ delayeddamage }} magic damage</magicDamage>.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "14/13.25/12.5/11.75/11",
+          "costBurn": "50",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "925",
+          "maxammo": "-1",
+          "image": {
+            "full": "LeblancE.png"
+          }
+        },
+        {
+          "id": "LeblancR",
+          "name": "Mimic",
+          "tooltip": "LeBlanc mimics her most recent Ability, using it again. The mimicked Ability deals increased damage.<br /><br /><spellName>Mimicked Sigil of Malice</spellName> deals <magicDamage>{{ rq1damage }} magic damage</magicDamage> when applied, and <magicDamage>{{ rq2damage }} magic damage</magicDamage> when consumed.<br /><spellName>Mimicked Distortion</spellName> deals <magicDamage>{{ rwdamage }} magic damage</magicDamage>.<br /><spellName>Mimicked Ethereal Chains</spellName> deals <magicDamage>{{ re1damage }} magic damage</magicDamage> when shackled and <magicDamage>{{ re2damage }} magic damage</magicDamage> when <status>Rooting</status>.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 3,
+          "cooldownBurn": "45/35/25",
+          "costBurn": "0",
+          "costType": "No Cost",
+          "resource": "No Cost",
+          "rangeBurn": "25000",
+          "maxammo": "2",
+          "image": {
+            "full": "LeblancR.png"
+          }
+        }
+      ]
+    },
+    "Zed": {
+      "id": "Zed",
+      "key": "238",
+      "name": "Zed",
+      "partype": "Energy",
+      "stats": {
+        "attackrange": 125
+      },
+      "spells": [
+        {
+          "id": "ZedQ",
+          "name": "Razor Shuriken",
+          "tooltip": "Zed and his <keywordMajor>Shadows</keywordMajor> throw their shurikens, each dealing <physicalDamage>{{ totaldamage }} physical damage</physicalDamage> to the first enemy they pass through, and <physicalDamage>{{ passthroughdamage }} physical damage</physicalDamage> to each additional enemy.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "6",
+          "costBurn": "75/70/65/60/55",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "900",
+          "maxammo": "-1",
+          "image": {
+            "full": "ZedQ.png"
+          }
+        },
+        {
+          "id": "ZedW",
+          "name": "Living Shadow",
+          "tooltip": "<spellPassive>Passive:</spellPassive> Zed gains <keywordMajor>{{ energyrestoredoublehit }} Energy</keywordMajor> whenever he and his <keywordMajor>Shadows</keywordMajor> strike an enemy with the same Ability.<br /><br /><spellActive>Active:</spellActive> Zed's <keywordMajor>Shadow</keywordMajor> dashes forward, remaining in place for {{ shadowdurationtooltip }} seconds. <recast>Recasting</recast> this Ability will cause Zed to switch positions with this <keywordMajor>Shadow</keywordMajor>.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "20/19/18/17/16",
+          "costBurn": "40/35/30/25/20",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "650",
+          "maxammo": "-1",
+          "image": {
+            "full": "ZedW.png"
+          }
+        },
+        {
+          "id": "ZedE",
+          "name": "Shadow Slash",
+          "tooltip": "Zed and his <keywordMajor>Shadows</keywordMajor> slash, dealing <physicalDamage>{{ totaldamage }} physical damage</physicalDamage> to nearby enemies.<br /><br />Each enemy champion hit by Zed's slash reduces <spellName>Living Shadow</spellName>'s Cooldown by {{ shadowhitcdr }} seconds.<br /><br />Enemies hit by a <keywordMajor>Shadow</keywordMajor>'s slash are <status>Slowed</status> by {{ movespeedmod*-100 }}% for {{ slowduration }} seconds. Enemies hit by multiple slashes take no additional damage but are <status>Slowed</status> by {{ movespeedmodbonus*-100 }}% instead.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "5/4.5/4/3.5/3",
+          "costBurn": "40",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "290",
+          "maxammo": "-1",
+          "image": {
+            "full": "ZedE.png"
+          }
+        },
+        {
+          "id": "ZedR",
+          "name": "Death Mark",
+          "tooltip": "Zed becomes Untargetable and dashes to an enemy champion, marking them. After {{ rdeathmarkduration }} seconds, the mark triggers, dealing <physicalDamage>{{ rcalculateddamage }} physical damage</physicalDamage> and repeating {{ rdamageamp*100 }}% of all damage dealt to the target by Zed while the mark was active.<br /><br />The dash leaves a <keywordMajor>Shadow</keywordMajor> behind for {{ rshadowdurationdisplayed }} seconds. Zed can <recast>Recast</recast> this Ability to switch positions with this <keywordMajor>Shadow</keywordMajor>.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 3,
+          "cooldownBurn": "120/110/100",
+          "costBurn": "0",
+          "costType": "No Cost",
+          "resource": "No Cost",
+          "rangeBurn": "625",
+          "maxammo": "-1",
+          "image": {
+            "full": "ZedR.png"
+          }
+        }
+      ]
+    },
+    "Vladimir": {
+      "id": "Vladimir",
+      "key": "8",
+      "name": "Vladimir",
+      "partype": "Crimson Rush",
+      "stats": {
+        "attackrange": 450
+      },
+      "spells": [
+        {
+          "id": "VladimirQ",
+          "name": "Transfusion",
+          "tooltip": "Vladimir drains his target's lifeforce, dealing <magicDamage>{{ basedamagetooltip }} magic damage</magicDamage> and restoring <healing>{{ basehealtooltip }} Health</healing>. After using this Ability twice, Vladimir gains <speed>{{ movementspeedonq2 }}% Move Speed</speed> for 0.5 seconds and empowers the next use of this Ability for {{ frenzyduration }} seconds.<br /><br />The empowered version of this Ability deals <magicDamage>{{ empowereddamagetooltip }} magic damage</magicDamage> instead and restores an additional <healing>{{ empoweredhealtooltip }} plus {{ empoweredhealpercenttooltip }} missing Health</healing>.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "9/7.9/6.8/5.7/4.6",
+          "costBurn": "0",
+          "costType": "No Cost",
+          "resource": "No Cost",
+          "rangeBurn": "600",
+          "maxammo": "-1",
+          "image": {
+            "full": "VladimirQ.png"
+          }
+        },
+        {
+          "id": "VladimirSanguinePool",
+          "name": "Sanguine Pool",
+          "tooltip": "Vladimir sinks into a pool of blood for 2 seconds, gaining <speed>{{ hasteboost*100 }}% decaying Move Speed</speed> for {{ hasteduration }} second and becoming <keyword>Untargetable</keyword> and <keyword>Ghosted</keyword> while <status>Slowing</status> enemies in the pool by {{ movespeedmod*-100 }}%.<br /><br />Vladimir deals <magicDamage>{{ totaldamage }} magic damage</magicDamage> and restores <healing>{{ totalheal }} Health</healing> per enemy over the duration.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "28/25/22/19/16",
+          "costBurn": "0",
+          "costType": "% of current Health",
+          "resource": "{{ healthcost*100 }}% of current Health",
+          "rangeBurn": "350",
+          "maxammo": "-1",
+          "image": {
+            "full": "VladimirSanguinePool.png"
+          }
+        },
+        {
+          "id": "VladimirE",
+          "name": "Tides of Blood",
+          "tooltip": "<charge>Begin Charging: </charge>Vladimir charges up a reservoir of blood, spending up to <span class=\"colorCC3300\">{{ chargehealthtooltip }} Health</span>. While at full charge, Vladimir is <status>Slowed</status> by 20%.<br /><br /><release>Release: </release>Vladimir unleashes a torrent of blood missiles at surrounding enemies, dealing between <magicDamage>{{ mindamagetooltip }}</magicDamage> and <magicDamage>{{ maxdamagetooltip }} magic damage</magicDamage> based on charge time. If this Ability was charged for at least 1 second, it also <status>Slows</status> targets by {{ slowpercent }}% for 0.5 seconds.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "13/11/9/7/5",
+          "costBurn": "0",
+          "costType": "% of max Health ({{ chargehealthtooltip }})",
+          "resource": "Channeling Cost {{ maxhealthcost }}% of max Health ({{ chargehealthtooltip }})",
+          "rangeBurn": "600",
+          "maxammo": "-1",
+          "image": {
+            "full": "VladimirE.png"
+          }
+        },
+        {
+          "id": "VladimirHemoplague",
+          "name": "Hemoplague",
+          "tooltip": "Vladimir creates a virulent plague, causing its victims to take {{ damageamp }}% increased damage from all sources for {{ duration }} seconds. After it expires, Vladimir deals <magicDamage>{{ damage }} magic damage</magicDamage> to all infected targets. Vladimir restores <healing>{{ damage }} Health</healing> if he hits a champion, and restores an additional <healing>{{ secondaryhealingtooltip }} Health</healing> for each champion beyond the first.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 3,
+          "cooldownBurn": "120",
+          "costBurn": "0",
+          "costType": "No Cost",
+          "resource": "No Cost",
+          "rangeBurn": "625",
+          "maxammo": "-1",
+          "image": {
+            "full": "VladimirHemoplague.png"
+          }
+        }
+      ]
+    },
+    "Nautilus": {
+      "id": "Nautilus",
+      "key": "111",
+      "name": "Nautilus",
+      "partype": "Mana",
+      "stats": {
+        "attackrange": 175
+      },
+      "spells": [
+        {
+          "id": "NautilusAnchorDrag",
+          "name": "Dredge Line",
+          "tooltip": "Nautilus hurls his anchor forward. If it hits an enemy, Nautilus drags himself and the target together, dealing <magicDamage>{{ qdamagecalc }} magic damage</magicDamage> and <status>Stunning</status> them briefly. If the anchor hits terrain, Nautilus will drag himself towards it.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "14/13/12/11/10",
+          "costBurn": "60",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "1150",
+          "maxammo": "-1",
+          "image": {
+            "full": "NautilusAnchorDrag.png"
+          }
+        },
+        {
+          "id": "NautilusPiercingGaze",
+          "name": "Titan's Wrath",
+          "tooltip": "Nautilus gains a <shield>{{ shieldcalc }} Shield</shield> for {{ shieldduration }} seconds. While the <shield>Shield</shield> persists, Nautilus' Attacks deal an additional <magicDamage>{{ dotdamagecalc }} magic damage</magicDamage> over 2 seconds to his target and all surrounding enemies.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "12",
+          "costBurn": "60",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "350",
+          "maxammo": "-1",
+          "image": {
+            "full": "NautilusPiercingGaze.png"
+          }
+        },
+        {
+          "id": "NautilusSplashZone",
+          "name": "Riptide",
+          "tooltip": "Nautilus creates three exploding waves around himself, each dealing <magicDamage>{{ damagecalc }} magic damage</magicDamage> to enemies in the area and <status>Slows</status> them by {{ slowpercent*100 }}% decaying over {{ slowduration }} seconds.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "7/6.5/6/5.5/5",
+          "costBurn": "50/60/70/80/90",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "600",
+          "maxammo": "-1",
+          "image": {
+            "full": "NautilusSplashZone.png"
+          }
+        },
+        {
+          "id": "NautilusGrandLine",
+          "name": "Depth Charge",
+          "tooltip": "Nautilus fires a shockwave that chases an enemy champion, dealing <magicDamage>{{ primarytargetdamage }} magic damage</magicDamage>, <status>Knocking</status> them <status>Up</status> and <status>Stunning</status> them for {{ stunduration }} seconds. Other enemies hit by the shockwave are also <status>Knocked Up</status> and <status>Stunned</status> and take <magicDamage>{{ secondarytargetdamage }} magic damage</magicDamage>.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 3,
+          "cooldownBurn": "120/100/80",
+          "costBurn": "100",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "825",
+          "maxammo": "-1",
+          "image": {
+            "full": "NautilusGrandLine.png"
+          }
+        }
+      ]
+    },
+    "Jayce": {
+      "id": "Jayce",
+      "key": "126",
+      "name": "Jayce",
+      "partype": "Mana",
+      "stats": {
+        "attackrange": 125
+      },
+      "spells": [
+        {
+          "id": "JayceToTheSkies",
+          "name": "To the Skies! / Shock Blast",
+          "tooltip": "<keywordMajor>Mercury Hammer:</keywordMajor> Jayce leaps to an enemy, dealing <physicalDamage>{{ spell.jaycetotheskies:damage }} physical damage</physicalDamage> to surrounding enemies and <status>Slowing</status> them by {{ spell.jaycetotheskies:slow*-100 }}% for {{ spell.jaycetotheskies:slowduration }} seconds.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 6,
+          "cooldownBurn": "16/14/12/10/8/6",
+          "costBurn": "40",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "600",
+          "maxammo": "-1",
+          "image": {
+            "full": "JayceToTheSkies.png"
+          }
+        },
+        {
+          "id": "JayceStaticField",
+          "name": "Lightning Field / Hyper Charge",
+          "tooltip": "<keywordMajor>Mercury Hammer - Passive:</keywordMajor> Jayce's <keywordMajor>Hammer</keywordMajor> Attacks grant <scaleMana>{{ spell.jaycestaticfield:managain }} Mana</scaleMana>.<br /><br /><keywordMajor>Mercury Hammer - Active:</keywordMajor> Jayce creates an electric aura dealing <magicDamage>{{ spell.jaycestaticfield:damage }} magic damage</magicDamage> over {{ spell.jaycestaticfield:duration }} seconds.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 6,
+          "cooldownBurn": "10",
+          "costBurn": "40",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "285",
+          "maxammo": "-1",
+          "image": {
+            "full": "JayceStaticField.png"
+          }
+        },
+        {
+          "id": "JayceThunderingBlow",
+          "name": "Thundering Blow / Acceleration Gate",
+          "tooltip": "<keywordMajor>Hammer Form</keywordMajor>: Jayce swings his hammer, <status>Knocking Back</status> his target and dealing <magicDamage>{{ spell.jaycethunderingblow:flatdamage }} plus {{ spell.jaycethunderingblow:perchpdamage*100 }}% max Health magic damage</magicDamage>.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 6,
+          "cooldownBurn": "20/18/16/14/12/10",
+          "costBurn": "55",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "240",
+          "maxammo": "-1",
+          "image": {
+            "full": "JayceThunderingBlow.png"
+          }
+        },
+        {
+          "id": "JayceStanceHtG",
+          "name": "Mercury Cannon / Mercury Hammer",
+          "tooltip": "<keywordMajor>Mercury Hammer</keywordMajor>: Jayce transforms his weapon into the <keywordMajor>Mercury Cannon</keywordMajor>, gaining Attack Range and new Abilities. Jayce's next Attack removes <scaleArmor>{{ spell.jaycestancehtg:rangedformshred }} Armor</scaleArmor> and <scaleMR>Magic Resist</scaleMR> for {{ spell.jaycestancehtg:shredduration }} seconds.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 1,
+          "cooldownBurn": "6",
+          "costBurn": "0",
+          "costType": "No Cost",
+          "resource": "No Cost",
+          "rangeBurn": "600",
+          "maxammo": "-1",
+          "image": {
+            "full": "JayceStanceHtG.png"
+          }
+        }
+      ]
+    },
+    "Corki": {
+      "id": "Corki",
+      "key": "42",
+      "name": "Corki",
+      "partype": "Mana",
+      "stats": {
+        "attackrange": 550
+      },
+      "spells": [
+        {
+          "id": "PhosphorusBomb",
+          "name": "Phosphorus Bomb",
+          "tooltip": "Corki lobs a bomb, dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage>. The area and champions hit are revealed for {{ revealduration }} seconds.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "9/8.5/8/7.5/7",
+          "costBurn": "60/65/70/75/80",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "825",
+          "maxammo": "-1",
+          "image": {
+            "full": "PhosphorusBomb.png"
+          }
+        },
+        {
+          "id": "CarpetBomb",
+          "name": "Valkyrie",
+          "tooltip": "Corki flies over and scorches a path, burning it for {{ trailduration }} seconds. Enemies in the fire take up to <magicDamage>{{ maximumdamage }} magic damage</magicDamage> over the duration.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "20/18/16/14/12",
+          "costBurn": "80/85/90/95/100",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "600",
+          "maxammo": "-1",
+          "image": {
+            "full": "CarpetBomb.png"
+          }
+        },
+        {
+          "id": "GGun",
+          "name": "Gatling Gun",
+          "tooltip": "Corki fires a gatling gun in front of him, dealing <physicalDamage>{{ totaldamage }} physical damage</physicalDamage> over {{ sprayduration }} seconds and shredding up to <scaleArmor>{{ shredmax*-1 }} Armor</scaleArmor> and <scaleMR>Magic Resist</scaleMR>.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "12",
+          "costBurn": "50/55/60/65/70",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "600",
+          "maxammo": "-1",
+          "image": {
+            "full": "GGun.png"
+          }
+        },
+        {
+          "id": "MissileBarrage",
+          "name": "Missile Barrage",
+          "tooltip": "Corki fires a missile that explodes on the first enemy hit, dealing <physicalDamage>{{ rsmallmissiledamage }} physical damage</physicalDamage> to surrounding enemies. Every third missile instead deals <physicalDamage>{{ rbigmissiledamage }} physical damage</physicalDamage>.<br /><br />This Ability has up to {{ maxammotooltip }} charges. Basic attacks against champions reduce the time between charges by <attention>{{ attackrefund }}</attention> seconds on hit.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 3,
+          "cooldownBurn": "2",
+          "costBurn": "35",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "1225",
+          "maxammo": "4",
+          "image": {
+            "full": "MissileBarrage.png"
+          }
+        }
+      ]
+    },
+    "Aphelios": {
+      "id": "Aphelios",
+      "key": "523",
+      "name": "Aphelios",
+      "partype": "Mana",
+      "stats": {
+        "attackrange": 550
+      },
+      "spells": [
+        {
+          "id": "ApheliosQ_ClientTooltipWrapper",
+          "name": "Weapon Abilites",
+          "tooltip": "{{ spellmodifierdescriptionappend }}",
+          "maxrank": 6,
+          "cooldownBurn": "9",
+          "costBurn": "60",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "1450",
+          "maxammo": "-1",
+          "image": {
+            "full": "ApheliosQ_ClientTooltipWrapper.png"
+          }
+        },
+        {
+          "id": "ApheliosW",
+          "name": "Phase",
+          "tooltip": "Swap main-hand and off-hand weapons, equipping <b><i><span class=\"colora64dff\">Gravitum</span></i></b>.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 6,
+          "cooldownBurn": "0.8",
+          "costBurn": "0",
+          "costType": "No Cost",
+          "resource": "No Cost",
+          "rangeBurn": "250",
+          "maxammo": "-1",
+          "image": {
+            "full": "ApheliosW.png"
+          }
+        },
+        {
+          "id": "ApheliosE_ClientTooltipWrapper",
+          "name": "Weapon Queue System",
+          "tooltip": "{{ spellmodifierdescriptionappend }}",
+          "maxrank": 6,
+          "cooldownBurn": "0",
+          "costBurn": "0",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "1000",
+          "maxammo": "-1",
+          "image": {
+            "full": "ApheliosE_ClientTooltipWrapper.png"
+          }
+        },
+        {
+          "id": "ApheliosR",
+          "name": "Moonlight Vigil",
+          "tooltip": "Aphelios fires a concentrated blast of moonlight that explodes when it hits a champion, dealing <physicalDamage>{{ maxdamage }} physical damage</physicalDamage> to surrounding enemies.<br /><br />Then, Aphelios attacks all champions hit with his main-hand weapon. {{ Spell_ApheliosR_WeaponMod_{{ f1 }} }}{{ spellmodifierdescriptionappend }}",
+          "maxrank": 3,
+          "cooldownBurn": "120/110/100",
+          "costBurn": "100",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "1300",
+          "maxammo": "-1",
+          "image": {
+            "full": "ApheliosR.png"
+          }
+        }
+      ]
+    },
+    "Garen": {
+      "id": "Garen",
+      "key": "86",
+      "name": "Garen",
+      "partype": "None",
+      "stats": {
+        "attackrange": 175
+      },
+      "spells": [
+        {
+          "id": "GarenQ",
+          "name": "Decisive Strike",
+          "tooltip": "Garen removes all <status>Slowing</status> effects on him and gains <speed>{{ movementspeedamount*100 }}% Move Speed</speed> for {{ movementspeedduration }} second(s).<br /><br />His next Attack <status>Silences</status> for {{ silenceduration }} seconds and does <physicalDamage>{{ totaldamage }} physical damage</physicalDamage>.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "8",
+          "costBurn": "0",
+          "costType": "No Cost",
+          "resource": "No Cost",
+          "rangeBurn": "300",
+          "maxammo": "-1",
+          "image": {
+            "full": "GarenQ.png"
+          }
+        },
+        {
+          "id": "GarenW",
+          "name": "Courage",
+          "tooltip": "<spellPassive>Passive:</spellPassive> Garen has <scaleArmor>{{ resistsfortooltip }} bonus Armor</scaleArmor> and <scaleMR>{{ resistsfortooltip }} bonus Magic Resist</scaleMR>. Killing units permanently grants <attention>{{ resistgainonkilltooltip }} resists</attention>, up to a max of <attention>{{ resistmax }}</attention>.<br /><br /><spellActive>Active:</spellActive> Garen steels his courage for {{ drduration }} seconds, reducing incoming damage by {{ drpercent*100 }}%. He also gains <shield>{{ totalshield }} Shield</shield> and <slow>{{ upfronttenacity*100 }}% Tenacity</slow> for {{ upfrontduration }} seconds.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "22/19.5/17/14.5/12",
+          "costBurn": "0",
+          "costType": "No Cost",
+          "resource": "No Cost",
+          "rangeBurn": "0",
+          "maxammo": "-1",
+          "image": {
+            "full": "GarenW.png"
+          }
+        },
+        {
+          "id": "GarenE",
+          "name": "Judgment",
+          "tooltip": "Garen rapidly spins his sword for {{ duration }} seconds, dealing <physicalDamage>{{ totaldamage }} physical damage</physicalDamage> {{ f1 }} times over the duration. The nearest enemy takes <physicalDamage>{{ nearestenemybonus*100 }}% increased damage</physicalDamage>. Champions hit by {{ stackstoshred }} strikes lose <scaleArmor>{{ shredamount*100 }}% Armor</scaleArmor> for {{ shredduration }} seconds.<br /><br /><recast>Recast</recast>: Garen ends this Ability early.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "9/8.25/7.5/6.75/6",
+          "costBurn": "0",
+          "costType": "No Cost",
+          "resource": "No Cost",
+          "rangeBurn": "325",
+          "maxammo": "-1",
+          "image": {
+            "full": "GarenE.png"
+          }
+        },
+        {
+          "id": "GarenR",
+          "name": "Demacian Justice",
+          "tooltip": "Garen calls upon the might of Demacia to slay his enemy, dealing <trueDamage>{{ basedamage }} plus {{ executedamage*100 }}% missing Health true damage</trueDamage>.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 3,
+          "cooldownBurn": "120/100/80",
+          "costBurn": "0",
+          "costType": "No Cost",
+          "resource": "No Cost",
+          "rangeBurn": "400",
+          "maxammo": "-1",
+          "image": {
+            "full": "GarenR.png"
+          }
+        }
+      ]
+    },
+    "Zeri": {
+      "id": "Zeri",
+      "key": "221",
+      "name": "Zeri",
+      "partype": "Mana",
+      "stats": {
+        "attackrange": 550
+      },
+      "spells": [
+        {
+          "id": "ZeriQ",
+          "name": "Burst Fire",
+          "tooltip": "Zeri fires a burst of {{ numberofmissiles }} rounds that deals <physicalDamage>{{ activedamagethatcancrit }} physical damage</physicalDamage> to the first enemy hit. This Ability is treated as an Attack. {{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "0",
+          "costBurn": "0",
+          "costType": "No Cost",
+          "resource": "No Cost",
+          "rangeBurn": "700",
+          "maxammo": "-1",
+          "image": {
+            "full": "ZeriQ.png"
+          }
+        },
+        {
+          "id": "ZeriW",
+          "name": "Ultrashock Laser",
+          "tooltip": "Zeri fires an electric pulse that deals <physicalDamage>{{ totaldamage }} physical damage</physicalDamage> and <status>Slows</status> the first enemy hit by {{ slowpercent*100 }}% for {{ slowduration }} seconds.<br /><br />If the pulse hits terrain, it expands into a laser that applies the effects in an area and Critically Strikes champions and monsters for <physicalDamage>{{ walldamage }} physical damage</physicalDamage>.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "12/11/10/9/8",
+          "costBurn": "50/60/70/80/90",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "1150",
+          "maxammo": "-1",
+          "image": {
+            "full": "ZeriW.png"
+          }
+        },
+        {
+          "id": "ZeriE",
+          "name": "Spark Surge",
+          "tooltip": "Zeri dashes a short distance and vaults over any terrain she touches, greatly extending the dash range. For the next {{ buffduration }} seconds, her shots of <spellName>Burst Fire</spellName> pierce dealing {{ pendamagepercent*100 }}% damage to enemies after the first and an additional <magicDamage>{{ bonusdamagetotal }} magic damage</magicDamage> On-Hit to the first target struck. <br /><br />Hitting an enemy with an Attack reduces this Ability's cooldown by {{ cdreductionperhit }} seconds. Critical strikes reduce the cooldown by {{ critcdreductionperhit }} seconds instead.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "24/22.5/21/19.5/18",
+          "costBurn": "90/85/80/75/70",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "25000",
+          "maxammo": "-1",
+          "image": {
+            "full": "ZeriE.png"
+          }
+        },
+        {
+          "id": "ZeriR",
+          "name": "Lightning Crash",
+          "tooltip": "Zeri discharges a nova of electricity, dealing <magicDamage>{{ totalactivedamage }} magic damage</magicDamage> to nearby enemies. If she hits an enemy champion, Zeri gains <attackSpeed>{{ baseaspercent*100 }}% Attack Speed</attackSpeed> and <speed>{{ basebonusms*100 }}% Move Speed</speed> for {{ rduration }} seconds. Hitting an enemy champion with an Attack or Ability extends this ability's duration and adds a stack of Overcharge for {{ maxhyperchargeduration }} seconds. Critical strikes add 2 additional stacks. Each stack grants <speed>{{ mspercent*100 }}% Move Speed</speed>.<br /><br />During this time, <spellName>Burst Fire</spellName> becomes a faster triple shot that chains <physicalDamage>{{ chainphysicaldamage }} physical damage</physicalDamage> to nearby enemies.<br /><br />{{ spellmodifierdescriptionappend }}",
+          "maxrank": 3,
+          "cooldownBurn": "80/75/70",
+          "costBurn": "100",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "800",
+          "maxammo": "-1",
+          "image": {
+            "full": "ZeriR.png"
+          }
+        }
+      ]
+    },
+    "Morgana": {
+      "id": "Morgana",
+      "key": "25",
+      "name": "Morgana",
+      "partype": "Mana",
+      "stats": {
+        "attackrange": 450
+      },
+      "spells": [
+        {
+          "id": "MorganaQ",
+          "name": "Dark Binding",
+          "tooltip": "Morgana hurls a blast of starfire that <status>Roots</status> the first enemy hit for {{ rootduration }} seconds and deals <magicDamage>{{ totaldamage }} magic damage</magicDamage>.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "10",
+          "costBurn": "50/55/60/65/70",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "1250",
+          "maxammo": "-1",
+          "image": {
+            "full": "MorganaQ.png"
+          }
+        },
+        {
+          "id": "MorganaW",
+          "name": "Tormented Shadow",
+          "tooltip": "Morgana ignites the ground for {{ wduration }} seconds, dealing <magicDamage>{{ totalmindamage }} magic damage</magicDamage> per second, increased by up to <magicDamage>{{ totalmaxdamage }}</magicDamage> based on the targets' missing Health.<br /><br />This Ability's Cooldown is reduced by {{ cdrefundpercent*100 }}% every time Morgana is healed by <spellName>Soul Siphon</spellName>.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "12",
+          "costBurn": "70/80/90/100/110",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "900",
+          "maxammo": "-1",
+          "image": {
+            "full": "MorganaW.png"
+          }
+        },
+        {
+          "id": "MorganaE",
+          "name": "Black Shield",
+          "tooltip": "Morgana grants an ally champion <shield>{{ totalshieldstrength }} Magic Shield</shield> for {{ shieldduration }} seconds. The shield prevents <status>Disabling</status> and <status>Immobilizing</status> effects until it breaks.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "26/23.5/21/18.5/16",
+          "costBurn": "80",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "800",
+          "maxammo": "-1",
+          "image": {
+            "full": "MorganaE.png"
+          }
+        },
+        {
+          "id": "MorganaR",
+          "name": "Soul Shackles",
+          "tooltip": "Morgana chains herself to nearby enemy Champions, dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage> and <status>Slowing</status> them by {{ slowpercent }}%. After {{ chainduration }} seconds, enemies unable to break the chains take an additional <magicDamage>{{ totaldamage }} magic damage</magicDamage> and are <status>Stunned</status> for {{ stunduration }} seconds.<br /><br />While casting this Ability, Morgana gains <speed>{{ hastepercent }}% Move Speed</speed>.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 3,
+          "cooldownBurn": "120/110/100",
+          "costBurn": "100",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "625",
+          "maxammo": "-1",
+          "image": {
+            "full": "MorganaR.png"
+          }
+        }
+      ]
+    },
+    "Akali": {
+      "id": "Akali",
+      "key": "84",
+      "name": "Akali",
+      "partype": "Energy",
+      "stats": {
+        "attackrange": 125
+      },
+      "spells": [
+        {
+          "id": "AkaliQ",
+          "name": "Five Point Strike",
+          "tooltip": "Akali slings kunai in an arc, dealing <magicDamage>{{ damage }} magic damage</magicDamage> and <status>Slowing</status> enemies at the tip by {{ slowpercentage*100 }}% for {{ slowduration }} seconds.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "1.5",
+          "costBurn": "110/100/90/80/70",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "550",
+          "maxammo": "-1",
+          "image": {
+            "full": "AkaliQ.png"
+          }
+        },
+        {
+          "id": "AkaliW",
+          "name": "Twilight Shroud",
+          "tooltip": "Akali drops a smoke bomb, unleashing a spreading cover of smoke lasting {{ baseduration }} seconds and granting herself <speed>{{ movementspeed }}% Move Speed</speed> decaying over {{ movementspeedduration }} seconds.<br /><br />Akali increases her max Energy by {{ energyrestore }} while the shroud is active. <br /><br />While inside the smoke, Akali is <keywordStealth>Invisible</keywordStealth>.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "20/19/18/17/16",
+          "costBurn": "0",
+          "costType": " Energy",
+          "resource": "Restores {{ energyrestore }} Energy",
+          "rangeBurn": "350",
+          "maxammo": "-1",
+          "image": {
+            "full": "AkaliW.png"
+          }
+        },
+        {
+          "id": "AkaliE",
+          "name": "Shuriken Flip",
+          "tooltip": "Akali flips backwards as she throws a shuriken, dealing <magicDamage>{{ e1damage }} magic damage</magicDamage> and marking the first enemy or smoke cloud hit. Akali can <recast>Recast</recast> this once to dash to the marked target, dealing <magicDamage>{{ e2damagecalc }} magic damage</magicDamage>.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 5,
+          "cooldownBurn": "16/14.5/13/11.5/10",
+          "costBurn": "30",
+          "costType": " {{ abilityresourcename }}",
+          "resource": "{{ cost }} {{ abilityresourcename }}",
+          "rangeBurn": "825",
+          "maxammo": "-1",
+          "image": {
+            "full": "AkaliE.png"
+          }
+        },
+        {
+          "id": "AkaliR",
+          "name": "Perfect Execution",
+          "tooltip": "Akali vaults over an enemy champion, dealing <magicDamage>{{ cast1damage }} magic damage</magicDamage> to all enemies in her path. <br /><br />Akali can <recast>Recast</recast> after {{ cooldownbetweencasts }} seconds to execute a piercing thrust, dashing and dealing <magicDamage>{{ cast2damagemin }}</magicDamage> to <magicDamage>{{ cast2damagemax }} magic damage</magicDamage> based on missing Health.{{ spellmodifierdescriptionappend }}",
+          "maxrank": 3,
+          "cooldownBurn": "120/90/60",
+          "costBurn": "0",
+          "costType": "No Cost",
+          "resource": "No Cost",
+          "rangeBurn": "675",
+          "maxammo": "-1",
+          "image": {
+            "full": "AkaliR.png"
+          }
+        }
+      ]
+    }
+  }
+}

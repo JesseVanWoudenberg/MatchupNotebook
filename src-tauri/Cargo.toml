@@ -1,0 +1,39 @@
+[package]
+name = "matchup-notebook"
+version = "0.1.0"
+description = "A personal notebook for League of Legends matchups"
+authors = ["Jesse"]
+license = ""
+repository = ""
+edition = "2024"
+rust-version = "1.90"
+
+[lib]
+name = "matchup_notebook_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.7.2", features = [] }
+
+[dependencies]
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+log = "0.4"
+tauri = { version = "2.12.3", features = ["protocol-asset"] }
+tauri-plugin-log = "2"
+tauri-plugin-fs = "2"
+tauri-plugin-http = "2"
+tauri-plugin-dialog = "2"
+tauri-plugin-opener = "2"
+tauri-plugin-persisted-scope = "2"
+tauri-plugin-global-shortcut = "2"
+# League client: the LCU WebSocket over TLS with the client's self-signed
+# certificate, plus the async runtime pieces the connection loop needs.
+tokio = { version = "1", features = ["rt", "sync", "time", "macros"] }
+tokio-tungstenite = { version = "0.30", features = ["native-tls"] }
+native-tls = "0.2"
+futures-util = { version = "0.3", default-features = false, features = ["sink", "std"] }
+base64 = "0.22"
+tauri-plugin-updater = "2"
+tauri-plugin-process = "2"
+keyring = "4"

@@ -1,0 +1,1469 @@
+[
+  {
+    "champ": "Aatrox",
+    "slot": "Q",
+    "kind": "knockup",
+    "seconds": [0.25],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Aatrox",
+    "slot": "R",
+    "kind": "fear",
+    "seconds": [3],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Ahri",
+    "slot": "E",
+    "kind": "charm",
+    "seconds": [1.2, 1.35, 1.5, 1.65, 1.8],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Alistar",
+    "slot": "E",
+    "kind": "stun",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Alistar",
+    "slot": "Q",
+    "kind": "stun",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Alistar",
+    "slot": "W",
+    "kind": "knockup",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Ambessa",
+    "slot": "R",
+    "kind": "stun",
+    "seconds": [0.4],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Ambessa",
+    "slot": "R",
+    "kind": "suppression",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Amumu",
+    "slot": "Q",
+    "kind": "stun",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Amumu",
+    "slot": "R",
+    "kind": "stun",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Anivia",
+    "slot": "Q",
+    "kind": "stun",
+    "seconds": [1.1, 1.2, 1.3, 1.4, 1.5],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Aphelios",
+    "slot": "R",
+    "kind": "root",
+    "seconds": [1.35],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Ashe",
+    "slot": "R",
+    "kind": "stun",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "AurelionSol",
+    "slot": "R",
+    "kind": "stun",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Bard",
+    "slot": "Q",
+    "kind": "stun",
+    "seconds": [1, 1.2, 1.4, 1.6, 1.8],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Belveth",
+    "slot": "W",
+    "kind": "knockup",
+    "seconds": [0.6, 0.7, 0.8, 0.9, 1],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Blitzcrank",
+    "slot": "E",
+    "kind": "knockup",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Blitzcrank",
+    "slot": "R",
+    "kind": "silence",
+    "seconds": [0.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Brand",
+    "slot": "Q",
+    "kind": "stun",
+    "seconds": [1.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Braum",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [1, 1.5, 2],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Briar",
+    "slot": "E",
+    "kind": "knockup",
+    "seconds": [0.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Briar",
+    "slot": "E",
+    "kind": "stun",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Briar",
+    "slot": "Q",
+    "kind": "stun",
+    "seconds": [0.85],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Briar",
+    "slot": "R",
+    "kind": "fear",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Briar",
+    "slot": "R",
+    "kind": "silence",
+    "seconds": [0.25],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Caitlyn",
+    "slot": "W",
+    "kind": "root",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Camille",
+    "slot": "R",
+    "kind": "silence",
+    "seconds": [0.25],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Chogath",
+    "slot": "Q",
+    "kind": "knockup",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Chogath",
+    "slot": "W",
+    "kind": "silence",
+    "seconds": [1.6, 1.7, 1.8, 1.9, 2],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Darius",
+    "slot": "E",
+    "kind": "knockup",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Darius",
+    "slot": "R",
+    "kind": "fear",
+    "seconds": [3],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Diana",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [2],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Draven",
+    "slot": "E",
+    "kind": "knockup",
+    "seconds": [2],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Ekko",
+    "slot": "W",
+    "kind": "stun",
+    "seconds": [2.25],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Elise",
+    "slot": "E",
+    "kind": "stun",
+    "seconds": [1.6, 1.8, 2, 2.2, 2.4],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Evelynn",
+    "slot": "W",
+    "kind": "charm",
+    "seconds": [1.25, 1.5, 1.75, 2, 2.25],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Fiddlesticks",
+    "slot": "E",
+    "kind": "silence",
+    "seconds": [1.25],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Fiddlesticks",
+    "slot": "Q",
+    "kind": "fear",
+    "seconds": [1.2, 1.4, 1.6, 1.8, 2],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Fizz",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [2],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Galio",
+    "slot": "E",
+    "kind": "knockup",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Garen",
+    "slot": "Q",
+    "kind": "silence",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Gragas",
+    "slot": "E",
+    "kind": "knockup",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Gragas",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Hecarim",
+    "slot": "E",
+    "kind": "knockup",
+    "seconds": [0.25],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Heimerdinger",
+    "slot": "E",
+    "kind": "stun",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Irelia",
+    "slot": "E",
+    "kind": "stun",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Irelia",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [2.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Ivern",
+    "slot": "Q",
+    "kind": "root",
+    "seconds": [1.6, 1.7, 1.8, 1.9, 2],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "JarvanIV",
+    "slot": "Q",
+    "kind": "knockup",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Jax",
+    "slot": "E",
+    "kind": "stun",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Jhin",
+    "slot": "W",
+    "kind": "root",
+    "seconds": [1.25, 1.5, 1.75, 2, 2.25],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Jinx",
+    "slot": "E",
+    "kind": "root",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Kalista",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [1, 1.5, 2],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Karma",
+    "slot": "W",
+    "kind": "root",
+    "seconds": [1.6, 1.7, 1.8, 1.9, 2],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Kayn",
+    "slot": "W",
+    "kind": "knockup",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "KSante",
+    "slot": "Q",
+    "kind": "knockup",
+    "seconds": [0.8],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "KSante",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [0.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "KSante",
+    "slot": "R",
+    "kind": "stun",
+    "seconds": [0.3],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Leblanc",
+    "slot": "E",
+    "kind": "root",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "LeeSin",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Leona",
+    "slot": "E",
+    "kind": "root",
+    "seconds": [0.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Leona",
+    "slot": "Q",
+    "kind": "stun",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Lillia",
+    "slot": "R",
+    "kind": "sleep",
+    "seconds": [2.5, 2.75, 3],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Lissandra",
+    "slot": "R",
+    "kind": "stun",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Lissandra",
+    "slot": "W",
+    "kind": "root",
+    "seconds": [1.25, 1.35, 1.45, 1.55, 1.65],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Lulu",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Lulu",
+    "slot": "W",
+    "kind": "polymorph",
+    "seconds": [1.2, 1.4, 1.6, 1.8, 2],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Lux",
+    "slot": "Q",
+    "kind": "root",
+    "seconds": [2],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Malphite",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Malzahar",
+    "slot": "Q",
+    "kind": "silence",
+    "seconds": [1, 1.25, 1.5, 1.75, 2],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Maokai",
+    "slot": "Q",
+    "kind": "stun",
+    "seconds": [0.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Maokai",
+    "slot": "W",
+    "kind": "root",
+    "seconds": [1, 1.1, 1.2, 1.3, 1.4],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Mel",
+    "slot": "E",
+    "kind": "root",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Milio",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [3],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "MonkeyKing",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [0.6],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Morgana",
+    "slot": "Q",
+    "kind": "root",
+    "seconds": [2, 2.25, 2.5, 2.75, 3],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Morgana",
+    "slot": "R",
+    "kind": "stun",
+    "seconds": [1.5, 1.75, 2],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Nautilus",
+    "slot": "Q",
+    "kind": "stun",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Nautilus",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [1, 1.5, 2],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Nautilus",
+    "slot": "R",
+    "kind": "stun",
+    "seconds": [1, 1.5, 2],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Neeko",
+    "slot": "E",
+    "kind": "root",
+    "seconds": [0.7, 0.9, 1.1, 1.3, 1.5],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Neeko",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [0.6],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Neeko",
+    "slot": "R",
+    "kind": "stun",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Nocturne",
+    "slot": "E",
+    "kind": "fear",
+    "seconds": [1.25, 1.5, 1.75, 2, 2.25],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Orianna",
+    "slot": "R",
+    "kind": "stun",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Ornn",
+    "slot": "E",
+    "kind": "knockup",
+    "seconds": [1.25],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Ornn",
+    "slot": "Q",
+    "kind": "knockback",
+    "seconds": [4],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Ornn",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Pantheon",
+    "slot": "W",
+    "kind": "stun",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Poppy",
+    "slot": "E",
+    "kind": "stun",
+    "seconds": [1.6, 1.7, 1.8, 1.9, 2],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Poppy",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Poppy",
+    "slot": "W",
+    "kind": "knockup",
+    "seconds": [0.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Pyke",
+    "slot": "Q",
+    "kind": "knockup",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Rakan",
+    "slot": "R",
+    "kind": "charm",
+    "seconds": [1, 1.25, 1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Rakan",
+    "slot": "W",
+    "kind": "knockup",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Rammus",
+    "slot": "E",
+    "kind": "taunt",
+    "seconds": [1.2, 1.4, 1.6, 1.8, 2],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Rammus",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Rell",
+    "slot": "Q",
+    "kind": "stun",
+    "seconds": [0.65],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Rell",
+    "slot": "W",
+    "kind": "knockup",
+    "seconds": [0.4],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Rell",
+    "slot": "W",
+    "kind": "stun",
+    "seconds": [0.8],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Renata",
+    "slot": "Q",
+    "kind": "root",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Renata",
+    "slot": "Q",
+    "kind": "stun",
+    "seconds": [0.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Renekton",
+    "slot": "W",
+    "kind": "stun",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Riven",
+    "slot": "W",
+    "kind": "stun",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Sejuani",
+    "slot": "E",
+    "kind": "stun",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Sejuani",
+    "slot": "Q",
+    "kind": "knockup",
+    "seconds": [0.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Sejuani",
+    "slot": "R",
+    "kind": "stun",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Senna",
+    "slot": "W",
+    "kind": "root",
+    "seconds": [1.25, 1.5, 1.75, 2, 2.25],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Seraphine",
+    "slot": "R",
+    "kind": "charm",
+    "seconds": [1.25, 1.5, 1.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Sett",
+    "slot": "E",
+    "kind": "knockup",
+    "seconds": [0.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Sett",
+    "slot": "E",
+    "kind": "stun",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Shaco",
+    "slot": "R",
+    "kind": "fear",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Shaco",
+    "slot": "R",
+    "kind": "root",
+    "seconds": [0.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Shaco",
+    "slot": "W",
+    "kind": "fear",
+    "seconds": [0.5, 0.75, 1, 1.25, 1.5],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Shaco",
+    "slot": "W",
+    "kind": "root",
+    "seconds": [0.5, 0.75, 1, 1, 1],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Shen",
+    "slot": "E",
+    "kind": "taunt",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Shyvana",
+    "slot": "R",
+    "kind": "fear",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Singed",
+    "slot": "E",
+    "kind": "root",
+    "seconds": [1, 1.25, 1.5, 1.75, 2],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Sion",
+    "slot": "E",
+    "kind": "stun",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Sion",
+    "slot": "R",
+    "kind": "stun",
+    "seconds": [0.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Skarner",
+    "slot": "E",
+    "kind": "stun",
+    "seconds": [1.1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Skarner",
+    "slot": "R",
+    "kind": "suppression",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Soraka",
+    "slot": "E",
+    "kind": "root",
+    "seconds": [1, 1.25, 1.5, 1.75, 2],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Swain",
+    "slot": "E",
+    "kind": "root",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Syndra",
+    "slot": "E",
+    "kind": "stun",
+    "seconds": [1.25],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Syndra",
+    "slot": "W",
+    "kind": "taunt",
+    "seconds": [0.25],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "TahmKench",
+    "slot": "Q",
+    "kind": "stun",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "TahmKench",
+    "slot": "W",
+    "kind": "knockup",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Taliyah",
+    "slot": "E",
+    "kind": "knockup",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Taliyah",
+    "slot": "Q",
+    "kind": "stun",
+    "seconds": [3],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Taliyah",
+    "slot": "R",
+    "kind": "stun",
+    "seconds": [0.25],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Taric",
+    "slot": "E",
+    "kind": "stun",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Teemo",
+    "slot": "Q",
+    "kind": "blind",
+    "seconds": [2, 2.25, 2.5, 2.75, 3],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Thresh",
+    "slot": "E",
+    "kind": "knockup",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Thresh",
+    "slot": "Q",
+    "kind": "stun",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Tristana",
+    "slot": "R",
+    "kind": "stun",
+    "seconds": [0.4, 0.55, 0.7],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "TwistedFate",
+    "slot": "W",
+    "kind": "stun",
+    "seconds": [1, 1.25, 1.5, 1.75, 2],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Udyr",
+    "slot": "E",
+    "kind": "stun",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Urgot",
+    "slot": "E",
+    "kind": "knockup",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Urgot",
+    "slot": "E",
+    "kind": "stun",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Urgot",
+    "slot": "R",
+    "kind": "fear",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Varus",
+    "slot": "R",
+    "kind": "root",
+    "seconds": [2],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Vayne",
+    "slot": "E",
+    "kind": "stun",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Veigar",
+    "slot": "E",
+    "kind": "stun",
+    "seconds": [1.5, 1.75, 2, 2.25, 2.5],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Velkoz",
+    "slot": "E",
+    "kind": "knockup",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Vi",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [1.3],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Viktor",
+    "slot": "R",
+    "kind": "silence",
+    "seconds": [0.25],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Viktor",
+    "slot": "W",
+    "kind": "stun",
+    "seconds": [1.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Volibear",
+    "slot": "Q",
+    "kind": "stun",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Warwick",
+    "slot": "E",
+    "kind": "fear",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Xayah",
+    "slot": "E",
+    "kind": "root",
+    "seconds": [1.25],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "XinZhao",
+    "slot": "Q",
+    "kind": "knockup",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Yasuo",
+    "slot": "Q",
+    "kind": "knockup",
+    "seconds": [0.9],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Yasuo",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Yone",
+    "slot": "Q",
+    "kind": "knockup",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Yone",
+    "slot": "R",
+    "kind": "knockup",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Yone",
+    "slot": "R",
+    "kind": "stun",
+    "seconds": [1],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Zaahen",
+    "slot": "Q",
+    "kind": "knockup",
+    "seconds": [0.75],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Zaahen",
+    "slot": "W",
+    "kind": "stun",
+    "seconds": [0.25],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Zac",
+    "slot": "E",
+    "kind": "knockup",
+    "seconds": [0.5],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Zac",
+    "slot": "Q",
+    "kind": "knockup",
+    "seconds": [0.25],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Zilean",
+    "slot": "Q",
+    "kind": "stun",
+    "seconds": [1.1, 1.2, 1.3, 1.4, 1.5],
+    "source": "wiki",
+    "verified": false,
+    "checkedPatch": "26.20"
+  },
+  {
+    "champ": "Zoe",
+    "slot": "E",
+    "kind": "sleep",
+    "seconds": [1.4],
+    "source": "prose",
+    "verified": false,
+    "checkedPatch": "26.20"
+  }
+]

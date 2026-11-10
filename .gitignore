@@ -1,0 +1,15 @@
+node_modules/
+dist/
+coverage/
+src-tauri/target/
+src-tauri/gen/schemas/
+*.local
+.eslintcache
+.DS_Store
+.idea/
+.vscode/
+
+# Local development notes. They stay on the PC and never go to GitHub.
+CLAUDE.md
+.claude/
+docs/

@@ -1,0 +1,35 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Main window: notebook and settings in the Roaming app folder, champion cache in the Local app folder, Data Dragon over HTTPS, folder picker and reveal in file manager.",
+  "windows": ["main", "post-game"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-minimize",
+    "core:window:allow-toggle-maximize",
+    "core:window:allow-close",
+    "core:window:allow-is-maximized",
+    "core:window:allow-start-dragging",
+    "fs:allow-appdata-read-recursive",
+    "fs:allow-appdata-write-recursive",
+    "fs:allow-applocaldata-read-recursive",
+    "fs:allow-applocaldata-write-recursive",
+    "fs:allow-exists",
+    "fs:allow-mkdir",
+    "fs:allow-read-text-file",
+    "fs:allow-write-text-file",
+    "fs:allow-write-file",
+    "fs:allow-rename",
+    "fs:allow-copy-file",
+    "fs:allow-remove",
+    "dialog:allow-open",
+    "dialog:allow-save",
+    "updater:default",
+    "process:allow-restart",
+    "opener:allow-reveal-item-in-dir",
+    {
+      "identifier": "http:default",
+      "allow": [{ "url": "https://ddragon.leagueoflegends.com/*" }]
+    }
+  ]
+}

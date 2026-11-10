@@ -1,0 +1,12 @@
+[
+  {
+    "champ": "Qiyana",
+    "ranges": [
+      { "slot": "Q" },
+      { "label": "Q element", "range": 925, "slot": "Q" },
+      { "slot": "E" },
+      { "slot": "R" }
+    ],
+    "note": "W reach is for grabbing an element, not a trade"
+  }
+]

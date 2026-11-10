@@ -1,0 +1,61 @@
+{
+  "name": "matchup-notebook",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build",
+    "test:unit": "vitest",
+    "lint": "eslint . --fix --cache",
+    "format": "prettier --write src/ docs/ *.ts *.json",
+    "tauri": "tauri",
+    "seed": "tsx scripts/seed-notebook.ts",
+    "snapshots": "tsx --tsconfig tsconfig.app.json scripts/build-snapshots.ts",
+    "check-abilities": "tsx --tsconfig tsconfig.app.json scripts/check-abilities.ts"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.12.3",
+    "@tauri-apps/plugin-dialog": "^2.8.2",
+    "@tauri-apps/plugin-fs": "^2.7.0",
+    "@tauri-apps/plugin-http": "^2.8.2",
+    "@tauri-apps/plugin-opener": "^2.7.1",
+    "@tauri-apps/plugin-process": "^2.4.0",
+    "@tauri-apps/plugin-updater": "^2.14.0",
+    "pinia": "^4.0.3",
+    "vue": "^3.5.43",
+    "vue-router": "^5.2.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@tauri-apps/cli": "^2.12.2",
+    "@tsconfig/node22": "^22.0.2",
+    "@types/jsdom": "^30.0.0",
+    "@types/node": "^24.13.3",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "@vitest/eslint-plugin": "^1.6.23",
+    "@vue/eslint-config-typescript": "^14.9.0",
+    "@vue/test-utils": "^2.5.1",
+    "@vue/tsconfig": "^0.9.1",
+    "eslint": "^10.7.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-vue": "~10.9.2",
+    "jiti": "^2.7.0",
+    "jsdom": "^29.1.1",
+    "npm-run-all2": "^9.0.2",
+    "prettier": "3.9.5",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.23.15",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.4",
+    "vue-tsc": "^3.3.13"
+  }
+}

@@ -1,0 +1,52 @@
+# Builds the Windows installer and publishes a GitHub release when a tag
+# like v0.2.0 is pushed. The updater reads latest.json from that release.
+#
+# Secrets the repository needs:
+#   TAURI_SIGNING_PRIVATE_KEY           contents of ~/.tauri/matchup-notebook.key
+#   TAURI_SIGNING_PRIVATE_KEY_PASSWORD  empty string when the key has no password
+#
+# The version comes from package.json and src-tauri/tauri.conf.json; bump
+# both before tagging. Nothing here runs until the repo is on GitHub.
+
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - uses: swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri
+
+      - run: npm ci
+
+      - run: npm run lint && npm run type-check && npm run test:unit -- --run
+
+      - uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+        with:
+          tagName: ${{ github.ref_name }}
+          releaseName: 'Matchup notebook ${{ github.ref_name }}'
+          releaseBody: 'See the notes below. Windows shows a SmartScreen warning on first install: click "More info", then "Run anyway".'
+          releaseDraft: true
+          prerelease: false
